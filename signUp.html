@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Form Design</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="stylesheet" href="css/signUp.css" />
+    <link rel="stylesheet" href="css/extraStyle.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      
+      
+
+
+      <div class="card card-info">
+        <div class="color-info">
+             <h3 class="card-title">Create a Free Account</h3>           
+             <p> Please input the fields with your information</p>
+        </div>
+ <br>
+        <div class="alert color-info gfade oin">
+          <h4 class="alert-heading">Required fields are in <str>bold</str>.</h4>
+          Password must to be more than 8 characters long.        
+      </div>
+ 
+         <!-- /.card-header -->
+               <div class="card-body">
+                                  
+                         <form action="" class="form-horizontal">
+                        <input type="hidden" style="display:none;">
+                     <fieldset>
+
+                        
+                          <div class="row">
+                            <div class="col-sm-6">
+                                <div class="left-side">
+                        
+                                            <div class="form-group">
+                                      <label class="control-label" for="username"><b>Username</b></label>
+                                      
+                                          <input class="span6 form-control form-control-sm" type="text" placeholder="Username" required>
+                                          <span class="help-inline"></span>
+                                      
+                                  </div>
+                                  
+                                  <div class="form-group">
+                                      <label class="control-label required" for="email"><b>Email</b></label>
+                                      
+                                          <input class="span6 form-control form-control-sm" type="email" placeholder="Email" required>
+                                          <span class="help-inline"></span>
+                                      
+                                  </div>
+                        
+                                  <div class="form-group">
+                                      <label class="control-label" for="password"><b>Password</b></label>
+                                      
+                                          <input class="span6 form-control form-control-sm" type="password"placeholder="Password" required >
+                                          <span class="help-inline"></span>
+                                          <small class="help-block">Password must be at least 8 characters long.</small>
+                                      
+                                  </div>
+                        
+                                  <div class="form-group">
+                                      <label class="control-label" for="pass_confirm"><b>Confirm Password</b></label>
+                                      
+                                          <input class="span6 form-control form-control-sm" type="password" id="pass_confirm" name="pass_confirm" value="" placeholder="Password Again">
+                                          <span class="help-inline"></span>
+                                      
+                                  </div>
+                                  
+                            
+                                </div>    
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="right-side">
+                        
+                                  <div class="form-group">
+                                      <label class="control-label" for="display_name">Display Name</label>
+                                      
+                                          <input class="span6 form-control form-control-sm" type="text" id="display_name" placeholder="Last Name" name="display_name" value="">
+                                          <span class="help-inline"></span>
+                                      
+                                  </div>
+                                  
+                                  <div class="form-group">
+                                      <label class="control-label required" for="mobile">Mobile</label>
+                                      
+                                          <input class="span6 form-control form-control-sm" type="text" id="mobile" placeholder="Mobile" name="mobile" value="">
+                                          <span class="help-inline"></span>
+                                      
+                                  </div>
+                        
+                                  <label for="birthdate">Birth Date</label>
+                                  <div class="input-group">
+                                    <input type="date" name="" id="">
+                                  </div>
+                        
+                                  <div class="form-group">
+                                    <label for="gender">Gender</label>
+                                    <select name="gender" id="gender" class="chzn-select">
+                                    <option value="">Select Gender</option>
+                                    <option value="01" selected="selected">Male</option>
+                                    <option value="02">Female</option>
+                                    <option value="03">Other</option>
+                                    </select>
+                                  
+                                  </div>
+                        
+                              <div class="form-group">
+                                <label for="userimage">Select your image (max size 900kbs)</label>
+                                <input class="span6 form-control" id="image" type="file" name="image" maxlength="255" value="">
+                                        <span class="help-inline"></span>
+                              </div>                
+                            </div>    
+                            </div>
+                          </div>
+                     </fieldset>
+                     <fieldset>
+  
+  <input type="hidden" class="txt_csrfname" name="ci_csrf_token" value="a43687154ca4cfdf7c70b6fb80ec3d46" style="display:none;"> 
+       
+ 
+ 
+       <div class="form-group">
+          <label for="address" >Address</label>                
+              <textarea name="address" cols="80" rows="5" class="form-control form-control-sm" id="address"></textarea>              
+       </div>
+ 
+        <div class="control-group" style="text-align:center">
+          <button class="btn btn-success"type="submit" class="btn">SIGN UP</button>
+          <div class="account-exist">
+            Already have an account?
+            <button class="btn btn-success">
+              <a style="color: rgb(255, 255, 255);"
+              href="file:///F:/WEB%20DEVELOPMENT%202k21/Client%20Project/Login%20form/login.html"
+              id="login"
+              >Login</a>
+            </button>
+            
+          </div>
+        </div>
+                     </fieldset>
+                 </form>              
+         
+     </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+
+.color-info {
+    color: white;
+    background-color: #17a2b8;
+    border-color: #bee5eb;
+    padding: .01% 3%;
+}
+body{
+    /* background-color: rgb(145, 22, 22); */
+}
+.wrapper{
+    margin: 0 5%;
+}

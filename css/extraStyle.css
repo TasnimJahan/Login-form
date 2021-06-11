@@ -1,0 +1,65 @@
+.middle-side {
+    padding-top: 10px;
+    text-align: center;
+    color: #34304f;
+}
+
+.login-nature {
+    font-family: 'Siyam-Rupali';
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+.lonin-text {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1.3px;
+    color: #a306a8;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.headingLogin {
+    text-align: center;
+    font-size: 20px;
+    padding: 6px;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.check-box {
+    text-align: center;
+    margin-bottom: 10%;
+    font-weight: bold;
+}
+
+.loginbtn {
+    text-align: center;
+}
+
+.loginbtn .log-in {
+    min-width: 120px;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #09568d;
+}
+
+.logbtnn .signupp {
+    text-align: center;
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #457725;
+}
+
+.logbtnn .forgot-password {
+    padding: 8px;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    background-color: #901e1d;
+}
